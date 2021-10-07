@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void quest_one() {
+void quest_one(void) {
   int number;
   float numberFloat;
   char string[30];
@@ -13,7 +13,7 @@ void quest_one() {
   printf("Você digitou o número %d e o número %f. Depois digitou o nome %s.", number, numberFloat, string);
 }
 
-void quest_two() {
+void quest_two(void) {
   float first_n, second_n, m, result;
   printf("Digite a média necessária para aprovação: ");
   scanf("%f", &m);
@@ -28,7 +28,7 @@ void quest_two() {
   else printf("Aluno reprovado! Média: %f.", result);
 }
 
-void quest_tree() {
+void quest_tree(void) {
   int user_age;
   printf("Digite a sua idade: ");
   scanf("%d", &user_age);
